@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+.base{
+
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 154, 154);
+    margin: 15px ;
+    width: 280px;
+    padding: 25px;
+    border-radius: 20px;
+    border: double white 5px ;
+
+
+&__tarjeta{
+
+& div{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+& img{
+ width: 280px;
+ height: 280px;
+ border-radius: 20px;
+ border: double black 5px
+}
+
+
+}
+
+}
+

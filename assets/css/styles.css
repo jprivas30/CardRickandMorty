@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body {
+  background-color: black;
+}
+
+.base {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(152, 154, 154);
+  margin: 15px;
+  width: 280px;
+  padding: 25px;
+  border-radius: 20px;
+  border: double white 5px;
+}
+.base__tarjeta div {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+}
+.base__tarjeta img {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  border: double black 5px;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
